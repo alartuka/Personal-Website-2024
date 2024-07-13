@@ -1,0 +1,54 @@
+.navbar {
+    /* "flex max-w-fit md:min-w-[70vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-4", */
+    display: flex;
+    max-width: fit-content;
+    position: fixed;
+    z-index: 5000;
+    top: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(25, 28, 33, 0.02), 0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+    justify-content: center;
+    align-items: center;
+    /* gap: 9rem; */
+    height: 45px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+      min-width: 70vw;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      min-width: fit-content;
+    }
+  }
+
+.logo {
+    width: 44px;
+    height: 40px;
+    padding: 12px 12px;
+    margin-left: 8px;
+}
+
+.logo img{
+    width: 60px;
+    height: 40px;
+}
+
+
+#div {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 0px 12px;
+    margin-left: 12px;
+}
+

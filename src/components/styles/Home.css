@@ -1,0 +1,126 @@
+.hero {
+    /* padding-bottom: 20px; */
+    padding-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 8rem 0;
+    z-index: 10;
+}
+
+.header {
+    max-width: 89vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textEffect {
+    text-align: center;
+    font-size: 40px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.purple {
+    color: #CBACF9;
+}
+
+.nonPurple {
+    color: white;
+}
+
+.attributes {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.attributes h3 {
+    position: absolute;
+    /* margin: 1.5rem 1rem; */
+    /* padding: 1rem 3rem; */
+}
+
+.intro {
+    text-align: center;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #f6f9ac;
+}
+
+.intro h4 {
+    color: white;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+}
+
+.moon img {
+    z-index: -1;
+    top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    padding-left: 195px;
+    /* animation: float 5s ease-in-out infinite; */
+}
+
+.card {
+    margin: 1.5rem 1rem;
+    text-align: center;
+    color: blue;
+    background-color: #CBACF9;
+    border-radius: 1rem;
+}
+
+.cardimg {
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    .header {
+      max-width: 48rem;
+    }
+  
+    .textEffect {
+      font-size: 3rem;
+    }
+  
+    .intro {
+      font-size: 1.125rem;
+    }
+}
+  
+@media (min-width: 1024px) {
+    .header {
+        max-width: 60vw;
+    }
+
+    .textEffect {
+        font-size: 4rem;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+    }
+}
+
+  
+@keyframes float {
+    0% {
+      transform:  translate3d(0, 0, 0);
+    }
+    50% {
+      transform:  translate3d(0, 10px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+}
