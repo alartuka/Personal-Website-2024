@@ -3,7 +3,7 @@ const skills = [
     {
         id: 1,
         name: "Programming Technologies & Tools",
-        desc: "Python, JavaScript, HTML/CSS, SQL, C, Bash/Shell Scripting\nReact, Processing5, Flask, Node, MySQL\nMaterial-ui, Particles.js, Framer-Motion\nGit, VSCode, Linux, Firebase Authentication",
+        desc: "> Python, JavaScript, HTML/CSS, SQL, C, Bash/Shell Scripting\n> React, Processing5, Flask, Node, MySQL\n> Material-ui, Particles.js, Framer-Motion\n> Git, VSCode, Linux, Firebase Authentication, Firebase Hosting",
         img: "",
     },
 
@@ -17,14 +17,14 @@ const skills = [
     {
         id: 3,
         name: "Multi-lingual Interpretation & Transcription",
-        desc: "jlkj kjlk kjkdfaufa kdjfklkajf",
+        desc: "",
         img: "",
     },
 
     {
         id: 4,
         name: "Drawing & Painting",
-        desc: "sskjk kjlkjslkjfd",
+        desc: "",
         img: "",
     },
 
